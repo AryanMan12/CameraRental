@@ -1,0 +1,44 @@
+.tableContainer {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin-left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.table_container {
+    width: 98%;
+}
+
+table {
+    min-width: 80%;
+    max-width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+th {
+    text-align: left;
+    background-color: rgba(85, 96, 143, 0.7);
+}
+
+.table_button {
+    width: 80px;
+    height: 28px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

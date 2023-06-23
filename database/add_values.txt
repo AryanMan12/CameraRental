@@ -1,0 +1,57 @@
+
+
+INSERT INTO `category_info` (`category_name`) VALUES 
+(
+    'Camera'
+),
+(
+    'Lights'
+),
+(
+    'Tripod'
+);
+
+
+
+INSERT INTO `item_info` (`item_name`, `item_image`, `item_category`, `price`) VALUES 
+('Canon_EOS_1500D_DSLR_Camera',
+  'https://www.reliancedigital.in/medias/Canon-EOS-1500D-DSLR-491362608-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4NDE4MnxpbWFnZS9qcGVnfGltYWdlcy9oNGMvaDE3Lzg5OTM0MDQyNTYyODYuanBnfGEyMzMzZWI0YzAxMjE2MDY1MWM5MjQ3Yzk5NWQwMjk3MzVjYWNhYzYwMmRhNzg0NTAzYTVlZWZlODQ1NzNkZTY',
+  'Camera',
+  500),
+('Canon_EOS_200D',
+  'https://www.reliancedigital.in/medias/Canon-EOS-200D-II-DSLR-Camera-491431412-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5NzUyfGltYWdlL2pwZWd8aW1hZ2VzL2hjMS9oYTkvOTEzODM4Mzg4MDIyMi5qcGd8Mjg1YjZlODNkZTg1OTkyNmEyY2M5OGM5NDZjODU1NGRhNjM3MzQ1YTZlMzdiMGY5YmE4ZTAwZGNiNDkxYTc3YQ',
+  'Camera',
+  600),
+('Nikon_D7500_DSLR_Camera',
+  'https://www.reliancedigital.in/medias/Nikon-VBK510UN-DSLR-Cameras-491431245-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTQ5MnxpbWFnZS9qcGVnfGltYWdlcy9oZTEvaDFjLzkxMTcwMTgwNjI4NzguanBnfGFiNmIxMDdjOWEyZmQxM2ZjOGYyMGI3YTE3NTE3MzAyOWVhNGMwOWYyM2M3YTljMDQ4NDI1NjQwM2I3ZDVlNmM',
+  'Camera',
+  800),
+('Nikon_D5600_DSLR_Camera',
+  'https://www.reliancedigital.in/medias/Nikon-D5600-20DZ-491297413-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2ODM2MXxpbWFnZS9qcGVnfGltYWdlcy9oN2UvaGM5Lzg5NjMwNzAxMzIyNTQuanBnfGUwMWM4YjJhMTJhNjY2N2VlYWY3ZjFhZThmNjNiNmFhZDVjY2Q0MGI2YTI2NzIyODUxNDJmM2Q5ZmU2OGZiNzk',
+  'Camera',
+  500),
+('Canon_EOS_90D_DSLR_Camera',
+  'https://www.reliancedigital.in/medias/Canon-EOS-90D-DSLR-Camera-491600445-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzk4M3xpbWFnZS9qcGVnfGltYWdlcy9oMGIvaDcwLzkyMTY0NDg1Mjg0MTQuanBnfDgxNDU5NGU0NDcyNTM5NzI1YmM2ZDllYzM0OTI2NWM1NzU3YjE2MTU4NTEzNDQzNDg1OWQ5ZjM5YmFhODliZWE',
+  'Camera',
+  1250),
+('Studio_Bulb_Lights',
+  'https://images.unsplash.com/photo-1514916726007-68847f06dd03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0dWRpbyUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+  'Lights',
+  250),
+('Studio_2_Umbrella_Lights',
+  'https://images.unsplash.com/photo-1611274294780-16c4344fd2ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHN0dWRpbyUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+  'Lights',
+  400),
+('Ring_Lights',
+  'https://images.unsplash.com/photo-1478826160983-e6db8c7d537a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmluZyUyMGxpZ2h0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+  'Lights',
+  150),
+('Small_Tripod',
+  'https://images.unsplash.com/photo-1587204760600-77d8d18d143e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dHJpcG9kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+  'Tripod',
+  250),
+('Large_Tripod',
+  'https://images.unsplash.com/photo-1594147216879-97803adfb44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyaXBvZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+  'Tripod',
+  400);
+

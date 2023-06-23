@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f91b4b;
+    background: linear-gradient(120deg, #f91b4b 40%, #ff4a4a 60%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.image {
+    padding-top: 50px;
+    max-width: 100%;
+    height: 45vh;
+    background-color: transparent;
+}
+
+.form {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#upi-url {
+    height: 22px;
+    width: 400px;
+}
+
+.sub_button {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
